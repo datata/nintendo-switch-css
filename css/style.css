@@ -1,4 +1,4 @@
-html{
+html {
     height: 100%;
 }
 
@@ -90,6 +90,10 @@ body {
     margin-right: 5px;
 }
 
+.prueba-right {
+    margin-left: 5px;
+}
+
 .screen {
     width: 450px;
     height: 300px;
@@ -103,4 +107,51 @@ body {
     width: 420px;
     height: 270px;
     background-color: rgb(23, 21, 21);
+}
+
+.buttons {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 50%;
+}
+
+.margin-buttons {
+    margin-top: 15px
+}
+
+.analog-pad-right {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-right-joy-con {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-bottom-right-radius: 50%;
+}
+
+.blank-button {
+    width: 20px;
+    height: 20px;
+}
+
+.black-button {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 100px;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6em;
 }

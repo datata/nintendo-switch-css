@@ -51,6 +51,9 @@ body {
     width: 100px;
     height: 100px;
     background-color: #0AB9E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pad-row {
@@ -69,4 +72,11 @@ body {
     height: 20px;
     background-color: black;
     border-radius: 5px;
+}
+
+.bottom-left-joy-con {
+    width: 100px;
+    height: 100px;
+    background-color: #0AB9E6;
+    border-bottom-left-radius: 50%;
 }

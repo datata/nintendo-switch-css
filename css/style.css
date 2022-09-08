@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 
-.container {
+.joy-con-left {
     display: flex;
     flex-direction: column;
     /* width: 300px;
@@ -79,4 +79,28 @@ body {
     height: 100px;
     background-color: #0AB9E6;
     border-bottom-left-radius: 50%;
+}
+
+.bottom-left-joy-con {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.prueba {
+    margin-right: 5px;
+}
+
+.screen {
+    width: 450px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-screen {
+    width: 420px;
+    height: 270px;
+    background-color: rgb(23, 21, 21);
 }

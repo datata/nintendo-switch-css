@@ -46,3 +46,27 @@ body {
     border-radius: 100%;
     border: 2px solid rgb(92, 90, 90);
 }
+
+.pad {
+    width: 100px;
+    height: 100px;
+    background-color: #0AB9E6;
+}
+
+.pad-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blank-pad {
+    width: 20px;
+    height: 20px;
+}
+
+.black-pad {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 5px;
+}

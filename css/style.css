@@ -107,6 +107,10 @@ body {
     width: 420px;
     height: 270px;
     background-color: rgb(23, 21, 21);
+    background-image: url(../img/Nintendo_red_logo.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .buttons {
@@ -149,7 +153,7 @@ body {
     height: 20px;
     background-color: black;
     border-radius: 100px;
-    color: beige;
+    color: rgb(154, 154, 144);
     display: flex;
     justify-content: center;
     align-items: center;

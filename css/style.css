@@ -159,3 +159,7 @@ body {
     align-items: center;
     font-size: 0.6em;
 }
+
+.black-button:hover {
+    cursor: pointer;
+}
